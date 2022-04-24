@@ -18,12 +18,12 @@ a:hover {
 }
 .h1page2{
     font-size: 36px;
-    color: #000;
+    color: #fff;
     text-align: center;
 }
 .parapage2{
     font-size: 18px;
-    color: #000;
+    color: #fff;
     text-align: center;
 }
 
@@ -78,25 +78,6 @@ a:hover {
 
 .bg-t-edge {
     background: top no-repeat;
-}
-
-.bloc-bg-texture::before {
-    content: "";
-    background-size: 2px 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.texture-paper::before {
-   
-    background-size: 280px 280px;
-}
-
-.b-parallax {
-    background-attachment: fixed;
 }
 
 .d-bloc {
@@ -693,20 +674,16 @@ h4 {
     background-color: #fff;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
-
 .bgc-atomic-tangerine {
-    background-color: #f3976c;
+    background-color: #B55C0F;
 }
 
 .tc-white {
-    color: #f3976c;
+    color: white;
 }
 
 .btn-atomic-tangerine {
-    background: #f3976c;
+    background: #B55C0F;
     
 }
 
@@ -729,11 +706,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #f3976c!important;
+    color: #B55C0F!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #B55C0F!important;
 }
 
 .icon-dark-slate-blue {
