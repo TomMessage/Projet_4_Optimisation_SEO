@@ -26,7 +26,9 @@ a:hover {
     color: #fff;
     text-align: center;
 }
-
+.fa p {
+    display: none;
+}
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
