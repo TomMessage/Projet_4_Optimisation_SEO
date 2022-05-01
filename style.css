@@ -26,7 +26,7 @@ a:hover {
     color: #fff;
     text-align: center;
 }
-.fa p {
+.fa span {
     display: none;
 }
 #page-loading-blocs-notifaction {
@@ -453,8 +453,10 @@ button {
 }
 
 a[data-lightbox] {
+    display: flex;
+    justify-content: space-around;
     position: relative;
-    display: block;
+   
     text-align: center;
 }
 
@@ -651,6 +653,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    height: 320px;
 }
 
 .portfolio-row {
